@@ -25,5 +25,6 @@ src/pages/cart/
 src/pages/profile/
 src/pages/App.jsx
 src/assets
+src/store/
 
 .vercel.json
