@@ -97,7 +97,7 @@ export const AuthPage = () =>{
   const handleGoogleLogin = async() =>{
     setgoogleLoading(true);
     try{
-        window.location.href = "https://petcare-v1dm.onrender.com/user/google";
+        window.location.href = "https://petcare-l7rt.onrender.com/user/google";
     }
     // eslint-disable-next-line no-unused-vars
     catch(error){

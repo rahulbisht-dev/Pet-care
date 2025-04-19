@@ -1,7 +1,7 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react"
 
 
-export const base_url = "https://petcare-v1dm.onrender.com";
+export const base_url = "https://petcare-l7rt.onrender.com";
 
 const API_URL = {
 
@@ -40,7 +40,7 @@ const API_URL = {
 
 export const Api = createApi({
     baseQuery:fetchBaseQuery({
-        baseUrl:"https://petcare-v1dm.onrender.com",
+        baseUrl:"https://petcare-l7rt.onrender.com",
         credentials:"include"
     }),
     tagTypes:["user" , "appointment" , "order"],
