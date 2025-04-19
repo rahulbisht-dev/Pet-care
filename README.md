@@ -51,5 +51,5 @@ Special thanks to the open-source community for their invaluable resources and c
 
 ---
 
-*Note: Replace placeholder links with actual images and URLs as necessary.*
+
 
