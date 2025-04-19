@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Sawarabi+Mincho&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+
+*{
+  font-family: "outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.paw-animation1{
+    animation: paws1 2s  infinite;
+}
+
+.paw-animation2{
+    animation: paws2 2s infinite;
+}
+
+@keyframes paws1 {
+    0%, 100% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(60deg) scale(1.2);
+    }
+  }
+
+  @keyframes paws2 {
+    0%, 100% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(-60deg) scale(1.2);
+    }
+  }
+
+
+.value1{
+    background-image: url("value1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.value2{
+    background-image: url("value2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.value3{
+    background-image: url("value3.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.value4{
+    background-image: url("value4.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+.box {
+  --mask:
+    radial-gradient(179.66px at 50% 249.9px,#000 99%,#0000 101%) calc(50% - 204px) 0/408px 100%,
+    radial-gradient(179.66px at 50% -147.9px,#0000 99%,#000 101%) 50% 102px/408px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+button{
+  cursor: pointer;
+}
+
+
+
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
