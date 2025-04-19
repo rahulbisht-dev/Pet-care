@@ -8,7 +8,7 @@ import User from "../modules/User.js";
 passport.use(new googleStrategy({
     clientID:process.env.CLIENT || "",
     clientSecret:process.env.CLIENT_SECRET || "",
-    callbackURL:"https://petcare-v1dm.onrender.com/user/google/callback" ,
+    callbackURL:"https://petcare-l7rt.onrender.com/user/google/callback" ,
     passReqToCallback:true,
 },
 
