@@ -20,6 +20,7 @@ import { Myorders } from "./pages/cart/MyOrders.jsx";
 import TermsOfUse from "./pages/TermsAndCondition.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 import OAuthSuccess from "./components/Oauthsuccess.jsx";
+import { Error } from "./pages/Error.jsx";
 
 
 
@@ -67,6 +68,7 @@ const App = () => {
         <Route path="terms-and-condition" element={<TermsOfUse/>}/>
         <Route path="privacy-policy" element={<PrivacyPolicy/>}/>
         <Route path="/oauth-success" element={<OAuthSuccess />} />
+        <Route path="*" element={<Error/>}/>
         </Routes>
       <Footer/>
     </>
