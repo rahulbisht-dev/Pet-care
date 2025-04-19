@@ -16,3 +16,14 @@ build/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+
+src/pages/appointment/
+src/pages/services/
+src/pages/shop/
+src/pages/cart/
+src/pages/profile/
+src/pages/App.jsx
+src/assets
+
+.vercel.json
