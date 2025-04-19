@@ -141,7 +141,7 @@ const Navbar = () =>{
 
 
     return(
-        <section className="px-2 lg:px-8 flex justify-between items-center bg-[#c2a79a]/50 bg-fixed p-2 z-5000 sticky top-0 backdrop-blur-2xl ">
+        <section className="px-2 lg:px-8 flex justify-between items-center bg-[#c2a79a]/50 bg-fixed p-2 z-5000 sticky top-0 backdrop-blur-2xl">
 
             {slideMenu ? <Slidemenu setSlideMenu={setSlideMenu}/> : <></>}
 

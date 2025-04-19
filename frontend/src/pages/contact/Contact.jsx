@@ -30,7 +30,7 @@ export const Contact  = () =>{
 
 
     return(
-        <section>
+        <section className="w-[100vw] overflow-hidden">
         
             {/* top heading strip */}
             <div className="flex items-center justify-around bg-[#c2a79a] md:h-[30vh] lg:h-[50vh] h-[20vh]">
@@ -94,7 +94,7 @@ export const Contact  = () =>{
 
                 {/* Map */}
 
-                <div className=" flex-1  rounded-2xl">
+                <div className=" flex-1  rounded-2xl overflow-hidden">
                 <iframe data-aos="zoom-in" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d52240739.20772468!2d78.02808227213394!3d-18.12644009746951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1740555510534!5m2!1sen!2sin"   allowfullscreen="" loading="lazy" className="w-full lg:h-full h-80 rounded-2xl"></iframe>
                 </div>
 
